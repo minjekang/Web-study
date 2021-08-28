@@ -38,4 +38,10 @@ a {color: #222;text-decoration: none;}
 .header .header-tit {text-align: center;}
 .header .header-tit h1{text-align: center;background-color: #4aa8d4;font-size: 28px;padding: 5px 20px 6px 20px;display: inline-block;color: #fff;margin-top: 40px; font-weight: normal; text-transform: uppercase;}
 .header .header-tit a {display: inline-block;background-color: #2698cb; font-size: 18px; color: #fff;padding: 5px 20px 6px 20px;margin-top: -5pxx;}
-.header .header-icon {}
+
+.header .header-icon {text-align: center; margin-top: 30px;}
+.header .header-icon a {width: 60px; height: 60px; display: inline-block; background: url(../image/icon.png);}
+.header .header-icon a.icon1 {background-position: 0 0;}
+.header .header-icon a.icon2 {background-position: 0 -60;}
+.header .header-icon a.icon3 {background-position: 0 -120;}
+.header .header-icon a.icon4 {background-position: 0 -180;}
