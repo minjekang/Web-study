@@ -4,7 +4,7 @@
 
 /* 레이아웃 */
 #wrap {width: 100%;}
-#header {width: 100%; height: 325px; background: #111;}
+#header {width: 100%; height: 325px; background: url(../image/header_bg.jpg) center top repeat-x}
 #contents {width: 100%; height: 800px;background: #222;}
 #footer {width: 100%;height: 200px;background: #333;}
     
@@ -23,10 +23,15 @@
 /*스킵 내비게이션*/
 #skip {position: relative;}
 #skip a {position: absolute; left: 0px; top: -35px; border: 1px; color: #fff; background: #333; 
-           line-height: 30px;width: 160px;text-align: center;}
+line-height: 30px;width: 160px;text-align: center;}
 a {color: #222;text-decoration: none;}
 #skip a:active,
 #skip a:focus {top: 0;}
     
 
-        
+
+/* 헤더 */
+.header {}
+.header .header-menu {text-align: right;}
+.header .header-menu a {color: #fff;padding: 10px 0px 10px 13px;display: inline-block;}
+.header .header-menu a:hover {color: #666;}
