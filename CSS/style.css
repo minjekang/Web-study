@@ -45,7 +45,7 @@ a {color: #222;text-decoration: none;}
 .header .header-icon a.icon2 {background-position: 0 -60px;}
 .header .header-icon a.icon3 {background-position: 0 -120px;}
 .header .header-icon a.icon4 {background-position: 0 -180px;}
-.header .header-icon a.icon1:hover {background-position: -60 0;}
-.header .header-icon a.icon2:hover {background-position: -60 -60px;}
-.header .header-icon a.icon3:hover {background-position: -60 -120px;}
-.header .header-icon a.icon4:hover {background-position: -60 -180px;}
+.header .header-icon a.icon1:hover {background-position: -60px 0;}
+.header .header-icon a.icon2:hover {background-position: -60px -60px;}
+.header .header-icon a.icon3:hover {background-position: -60px -120px;}
+.header .header-icon a.icon4:hover {background-position: -60px -180px;}
