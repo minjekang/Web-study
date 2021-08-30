@@ -12,7 +12,7 @@
  /* 컨텐츠 */
 #cont_nav {background-color: #f6fdff;}
 #cont_tit {background-color: #EAF7FD;}
-#cont_ban {height: 200px;background: #555;}
+#cont_ban {background-color: #dceff7;}
 #cont_cont {height: 200px;background: #666;}
         
         
@@ -71,3 +71,19 @@ a {color: #222;text-decoration: none;}
 .tit {position: relative;}
 .tit h2 {font-size: 40px;text-align: center;padding: 5px 0; letter-spacing: 2px;color: #2c94c4;font-family: 'Nanum Brush Script', cursive;}
 .tit .btn {position: absolute; top: 0;right: 0;width: 60px;height: 60px;background: url(../image/icon.png) no-repeat 0 -600px;}
+
+/* 배너 */
+.ban {position: relative; padding: 30px 0 20px;}
+.ban a.prev {position: absolute;left: -80px;top: 60px;width: 43px;height: 43px;background-color: #ccc; background: url(../image/icon.png) no-repeat -150px 0;}
+.ban a.next {position: absolute;right: -80px;top: 60px;width: 43px;height: 43px;background-color: #ccc;background: url(../image/icon.png) no-repeat -150px -43px;}
+.ban a.prev:hover {background-position: -193px 0;}
+.ban a.next:hover {background-position: -193px -43px;}
+.ban ul {overflow: hidden;}
+.ban ul li {float: left;width: 330px;}
+.ban ul li:last-child {text-align: right;}
+.ban ul li:nth-child(2) {text-align: center;}
+.ban ul li.ban_img1 {text-align: left;}
+.ban ul li.ban_img2 {text-align: center;}
+.ban ul li.ban_img3 {text-align: right;}
+.ban ul li img {border: 4px solid #dcdcdc;}
+.ban ul li img:hover {border-color: #98dcdc;}
